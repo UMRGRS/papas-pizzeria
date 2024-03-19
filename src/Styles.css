@@ -63,13 +63,13 @@
 }
 
 .boton-mesa-grid-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
   width: 100%;
-  max-width: 960px;
 }
 
 .boton-mesa-grid-container > * {
-  flex: 1;
+  flex: 2;
   margin: 10px;
 }
