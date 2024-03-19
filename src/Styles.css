@@ -1,0 +1,32 @@
+.HeaderStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #659048;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+}
+
+.logoStyle {
+  height: 50px;
+  width: 76px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderButtons {
+  background-color: #b7302a;
+  border: 2px solid #efcacd;
+  border-radius: 12px;
+  padding: 5px 12px;
+  margin-left: 10px;
+}

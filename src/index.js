@@ -3,15 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header_Primario from './components/Header_Primario';
+import Header_Cerrar_Sesion from './components/Header_Cerrar_Sesion';
+import Header_sin_ordenes from './components/Header_sin_ordenes';
+import Header_Solo_Logo from './components/Header_Solo_Logo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header_Primario></Header_Primario>
+    <Header_Cerrar_Sesion></Header_Cerrar_Sesion>
+    <Header_sin_ordenes></Header_sin_ordenes>
+    <Header_Solo_Logo></Header_Solo_Logo>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
