@@ -9,6 +9,7 @@ import Header_sin_ordenes from './components/Header_sin_ordenes';
 import Header_Solo_Logo from './components/Header_Solo_Logo';
 import Boton_mesa from './components/Boton_mesa';
 
+const buttonTexts = ['1', '2', '3', '4', '5', '6', '7', '8'];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,7 +17,7 @@ root.render(
     <Header_Cerrar_Sesion></Header_Cerrar_Sesion>
     <Header_sin_ordenes></Header_sin_ordenes>
     <Header_Solo_Logo></Header_Solo_Logo>
-    <Boton_mesa buttonText={1}></Boton_mesa>
+    <Boton_mesa buttonTexts={buttonTexts}></Boton_mesa>
   </React.StrictMode>
 );
 

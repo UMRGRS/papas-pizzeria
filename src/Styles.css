@@ -60,3 +60,15 @@
   justify-content: center;
   cursor: pointer;
 }
+
+.boton-mesa-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 960px;
+}
+
+.boton-mesa-grid-container > * {
+  flex: 1;
+  margin: 10px;
+}
