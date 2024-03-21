@@ -1,8 +1,6 @@
-import Start from './components/form'
+import Form from './components/form'
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      <Start/>
-    </h1>
+      <Form/>
   )
 }

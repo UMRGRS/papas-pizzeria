@@ -5,7 +5,6 @@ h1.header1 {
   justify-content: center;
   align-items: center;
   border-radius: 8px; /* Border radius */
-  background-color: #b7302a; /* Background color */
   padding: 10px 20px; /* Add some padding */
   color: #000000; /* Text color */
   font-size: 2rem; /* Increase font size */
