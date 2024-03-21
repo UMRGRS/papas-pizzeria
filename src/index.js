@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Devabraham from './dev_abraham';
+
+import Produc1 from './components/producto1';
+import Produc2 from './components/producto2';
+import Produc3 from './components/producto3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Devabraham></Devabraham>
+    <Produc1></Produc1>
+    <Produc2></Produc2>
+    <Produc3></Produc3>
     
   </React.StrictMode>
 );
