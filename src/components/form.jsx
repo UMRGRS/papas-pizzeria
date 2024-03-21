@@ -3,9 +3,8 @@ import './form.css'; // Importa el archivo CSS
 
 function Login() {
   return (
-    
-    <div className="login-container">
-      <form className="formulario">
+        <div className="login-container">
+        <form className="formulario">
         <h1 className='header1' >Ingresa tus datos</h1>
         <label class="label-t" for="my-input">
           <select>
@@ -19,7 +18,7 @@ function Login() {
         <input id='my-input' type='text'/>
         <button class="my-button" type="submit">Iniciar sesión</button>
       </form>
-    </div>
+      </div>
   );
 }
 
