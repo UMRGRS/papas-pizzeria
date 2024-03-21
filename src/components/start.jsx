@@ -16,7 +16,7 @@ const LoginForm = () => {
   return (
     <>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-        <form  onSubmit={handleSubmit}>
+        <form >
         <h2>Ingresa tus datos</h2>
 
         <label>
