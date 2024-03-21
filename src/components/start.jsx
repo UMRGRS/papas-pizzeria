@@ -6,7 +6,7 @@ function Login() {
     <div className="login-container">
       <form className="formulario">
         <h2 className="h1" style={{padding: '20px'}}>Ingresa tus datos</h2>
-        <label>
+        <label class="label-t" for="my-input">
           <p>Rol del empleado:</p>
           <select>
             <option value="">Seleccionar rol</option>
@@ -16,7 +16,7 @@ function Login() {
           </select>
         </label>
         <label>
-          <p>Numero de empleado:</p>
+          <p>{'  '}  Numero de empleado:</p>
           <input />
         </label>
         <button type="submit">Iniciar sesión</button>

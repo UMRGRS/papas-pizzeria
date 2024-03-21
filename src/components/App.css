@@ -44,3 +44,31 @@ option{
   font-size: calc(10px + 2vmin);
   color: #000000;
 }
+.label-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* add this to vertically center the content */
+  height: 30px; /* add a fixed height to the container */
+  padding: 0 10px; /* add some padding to the container */
+  box-sizing: border-box; /* include padding in the total height */
+  background-color: #f2f2f2; /* add some background color to the container */
+  border-radius: 5px; /* add some border radius to the container */
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* add this to vertically center the content */
+  font-size: 1.5rem;
+  height: 100%;
+}
+select {
+  border: 1px solid #000000; /* add a border with a width of 1px, solid style, and a gray color */
+  padding: 5px; /* add some padding to the select element */
+  border-radius: 5px; /* add some border radius to the select element */
+}
+input {
+  border: 1px solid #000000; /* add a border with a width of 1px, solid style, and a gray color */
+  padding: 5px; /* add some padding to the select element */
+  border-radius: 5px; /* add some border radius to the select element */
+}
