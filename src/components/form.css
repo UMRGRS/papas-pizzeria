@@ -1,0 +1,128 @@
+h1.header1 {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Border radius */
+  padding: 10px 20px; /* Add some padding */
+  color: #000000; /* Text color */
+  font-size: 2rem; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+}
+button{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px; /* Border radius */
+  padding: auto; /* Add some padding */
+  color: #000000; /* Text color */
+  font-size: 100; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  margin: 2%;/* Full width for responsiveness */
+  max-width: 40rem; /* Maximum width to prevent the form from becoming too wide */
+  
+}
+/* Login.css */
+.login-container {
+  /* Use Flexbox to center the form both vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Make the container take up the full height of the viewport */
+  height: 100vh;
+  /* Set a neutral gray background color */
+  background-color: #f0f0f0;
+  /* Add some padding around the form to make it look more balanced */
+  padding: 2rem;
+}
+.body-container {
+  /* Use Flexbox to center the form both vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  /* Make the container take up the full height of the viewport */
+  height: 100vh;
+  /* Set a neutral gray background color */
+  background-color: #f0f0f0;
+  /* Add some padding around the form to make it look more balanced */
+  padding: 2rem;
+}
+.formulario {
+  justify-content: flex-start; /* align child elements to the left */
+  padding: 2rem; /* Increased padding for better readability */
+  background-color: #efcacd; /* Light gray color for the form background */
+  border-radius: 2rem; /* Increased border radius for softer edges */
+  box-shadow: 0 4px 10px #0000001a; /* Slightly darker and larger shadow */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 40rem; /* Maximum width to prevent the form from becoming too wide */
+  margin: 0 auto; /* Centered horizontally */
+  font-size: 16px; /* Improved font size calculation */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./img/2b8017d95a11a8392fd0327264240e4b.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Asegúrate de aplicar las clases a tus elementos en el componente */
+.label-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* add this to vertically center the content */
+  height: 30px; /* add a fixed height to the container */
+  padding: 0 10px; /* add some padding to the container */
+  box-sizing: border-box; /* include padding in the total height */
+  background-color: #f2f2f2; /* add some background color to the container */
+  border-radius: 5px; /* add some border radius to the container */
+}
+label {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+select, input[type="text"] {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  font-size: 16px;
+}
+select {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border: 1px solid #000000; /* add a border with a width of 1px, solid style, and a gray color */
+  margin-top: 20px;
+  border-radius: 4px; /* add some border radius to the select element */
+}
+input {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  border: 1px solid #000000; /* add a border with a width of 1px, solid style, and a gray color */
+  padding: 5px; /* add some padding to the select element */
+  border-radius: 4px; /* add some border radius to the select element */
+}
+.my-button {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #648e48; /* Green background color */
+  border: 1px solid #000000;
+  color: #222222;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.my-button:active {
+  background-color: #3e8e41; /* Darker green background color when button is clicked */
+}
