@@ -7,8 +7,20 @@ h1.header1 {
   border-radius: 8px; /* Border radius */
   padding: 10px 20px; /* Add some padding */
   color: #000000; /* Text color */
-  font-size: 2rem; /* Increase font size */
+  font-size: 16px; /* Increase font size */
   font-weight: bold; /* Make text bold */
+}
+div.div-boton{
+    text-decoration: none;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; /* Border radius */
+    padding: auto; /* Add some padding */
+    color: #909090; /* Text color */
+    margin: 40px;/* Full width for responsiveness */  
+
 }
 button{
   text-decoration: none;
@@ -17,10 +29,10 @@ button{
   align-items: center;
   border-radius: 50px; /* Border radius */
   padding: auto; /* Add some padding */
-  color: #000000; /* Text color */
-  font-size: 100; /* Increase font size */
+  color: #909090; /* Text color */
+  font-size: 10svb; /* Increase font size */
   font-weight: bold; /* Make text bold */
-  margin: 2%;/* Full width for responsiveness */
+  margin: 40px;/* Full width for responsiveness */
   max-width: 40rem; /* Maximum width to prevent the form from becoming too wide */
   
 }
@@ -44,7 +56,7 @@ button{
   /* Make the container take up the full height of the viewport */
   height: 100vh;
   /* Set a neutral gray background color */
-  background-color: #f0f0f0;
+  background-color: #121111;
   /* Add some padding around the form to make it look more balanced */
   padding: 2rem;
 }
@@ -116,7 +128,7 @@ input {
   padding: 4px 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flexbox;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -124,5 +136,6 @@ input {
 }
 
 .my-button:active {
-  background-color: #3e8e41; /* Darker green background color when button is clicked */
+  color: #f9f9f9;
+  background-color: #96b897; /* Darker green background color when button is clicked */
 }
