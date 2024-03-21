@@ -1,49 +1,43 @@
-.h1 {
+h1.header1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px; /* Bordes redondeados */
-  background-color: #838383; /* Color de fondo de tu elección */
+  border-radius: 8px; /* Border radius */
+  background-color: #b7302a; /* Background color */
+  padding: 10px 20px; /* Add some padding */
+  color: #000000; /* Text color */
+  font-size: 2rem; /* Increase font size */
+  font-weight: bold; /* Make text bold */
 }
 /* Login.css */
 .login-container {
+  /* Use Flexbox to center the form both vertically and horizontally */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Altura completa de la ventana del navegador */
-  background-color: #f0f0f0; /* Color de fondo de tu elección */
+  /* Make the container take up the full height of the viewport */
+  height: 100vh;
+  /* Set a neutral gray background color */
+  background-color: #f0f0f0;
+  /* Add some padding around the form to make it look more balanced */
+  padding: 2rem;
 }
 
 .formulario {
-  padding: 20px;
-  background-color: white; /* Color de fondo del formulario */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
-  width: 400px; /* Ancho del formulario */
+  padding: 2rem; /* Increased padding for better readability */
+  background-color: #efcacd; /* Light gray color for the form background */
+  border-radius: 2rem; /* Increased border radius for softer edges */
+  box-shadow: 0 4px 10px #0000001a; /* Slightly darker and larger shadow */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 40rem; /* Maximum width to prevent the form from becoming too wide */
+  margin: 0 auto; /* Centered horizontally */
+  font-size: calc(1rem + 0.5vmin); /* Improved font size calculation */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Asegúrate de aplicar las clases a tus elementos en el componente */
-form{
-  margin: 100px;
-  background-position: center;
-  background-color: #858585;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #000000;
-}
-option{
-  background-position: center;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #000000;
-}
 .label-container {
   display: flex;
   justify-content: center;
@@ -71,4 +65,21 @@ input {
   border: 1px solid #000000; /* add a border with a width of 1px, solid style, and a gray color */
   padding: 5px; /* add some padding to the select element */
   border-radius: 5px; /* add some border radius to the select element */
+}
+.my-button {
+  background-color: #648e48; /* Green background color */
+  border: none;
+  color: #222222;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.my-button:active {
+  background-color: #3e8e41; /* Darker green background color when button is clicked */
 }
