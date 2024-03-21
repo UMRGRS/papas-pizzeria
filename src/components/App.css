@@ -1,7 +1,28 @@
-.parrafo {
-  white-space: pre;
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #838383; /* Color de fondo de tu elección */
+}
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana del navegador */
+  background-color: #f0f0f0; /* Color de fondo de tu elección */
 }
 
+.formulario {
+  padding: 20px;
+  background-color: white; /* Color de fondo del formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  width: 400px; /* Ancho del formulario */
+}
+
+/* Asegúrate de aplicar las clases a tus elementos en el componente */
 form{
   margin: 100px;
   background-position: center;
@@ -22,17 +43,4 @@ option{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000000;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
